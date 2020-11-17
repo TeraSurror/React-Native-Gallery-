@@ -9,7 +9,7 @@ Screenshots:
 
 1. Listing Screen
 
-![Listing Screen](Screenshots/Listing Page.PNG?raw=true "Listing Screen")
+![Listing Screen](Screenshots/ListingPage.PNG?raw=true "Listing Screen")
 
 2. Detail Screen (Image)
 
