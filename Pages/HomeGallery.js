@@ -27,7 +27,7 @@ const CustomImage = ({ url, name, onPress }) => {
                 }}
             />
             <Text style={{ color: 'white', textAlign: 'center' }}>
-                <p>{name}</p>
+                {name}
             </Text>
         </TouchableOpacity>
     );
@@ -94,19 +94,17 @@ const HomeGallery = ({ navigation }) => {
 }
 
 const styles = StyleSheet.create({
-    container: {
-        margin: '1em',
+    container: {        
         flex: 1,
-        alignItems: "center"
     },
 
     title: {
-        textAlign: 'center',
-        margin: '2em'
+        textAlign: 'center',       
+        margin: 20 
     },
 
     image: {
-        width: '100%',
+        width: '100%',  
         height: 150,
     },
 
@@ -115,7 +113,7 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        margin: '0.5em'
+        margin: 10
     }
 
 

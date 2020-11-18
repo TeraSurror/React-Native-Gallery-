@@ -27,7 +27,7 @@ const DislayMediaItem = ({ url, type }) => {
                 resizeMode="cover"
                 shouldPlay
                 isLooping
-                style={{ height: '75vh', width: '100%' }}
+                style={{ height: 600, width: '100%' }}
             />
         );
     }
@@ -52,7 +52,8 @@ const styles = StyleSheet.create({
         flex: 1,
         justifyContent: "center",
         alignItems: "center",
-        padding: '2em'
+        paddingTop: 10,
+        paddingBottom: 10
     },
 
 });
